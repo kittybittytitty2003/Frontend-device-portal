@@ -1,0 +1,11 @@
+.formdevice{
+    padding: 20px;
+    overflow: auto;
+    max-height: 87%;
+}
+div.deviceFormPage > div:nth-of-type(odd):nth-of-type(-n+20)::after{
+    content: "*";
+    display:inline;
+    color:red;
+    margin-left: 2px;
+}
